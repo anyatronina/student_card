@@ -1,0 +1,101 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/background4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+.divided {
+    background-color: rgb(245, 245, 220, 0.9);
+    border-radius: 5px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.container > div {
+    margin-bottom: 5px;
+    padding: 0 0 20px 15px;
+}
+
+.info_student {
+    display: flex;
+    margin: 10px 5px;
+}
+
+.info-text {
+    list-style: none;
+    margin: 0;
+}
+
+.info-text li {
+    margin-bottom: 12px;
+}
+
+.time-list {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.time-list > ul {
+    list-style: none;
+    margin: 0 50px 0 0;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+table thead th {
+    border-bottom: 1px solid black;
+}
+
+table tbody td {
+    padding-top: 5px;
+}
+
+.contacts-list {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-list i {
+    margin: 0 10px;
+}
+
+.contacts-list a {
+    margin: 0 5px;
+    outline: 0;
+    font-size: 19px;
+    text-decoration: none;
+    color:#98012d;
+}
+
+.contacts-list a:hover {
+    color: rosybrown; 
+}
